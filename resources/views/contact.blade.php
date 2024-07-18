@@ -1,11 +1,11 @@
 <x-layouts.main>
     <x-slot:title>
         Kantakt
-    </x-slot>
+    </x-slot:title>
     <x-header>
         <x-slot:path>
             {{ $path }}
-        </x-slot>
+        </x-slot:path>
     </x-header>   
 
 

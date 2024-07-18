@@ -1,11 +1,11 @@
 <x-layouts.main>
     <x-slot:title>
         Xizmatlarimiz
-    </x-slot>
+    </x-slot:title>
     <x-header>
         <x-slot:path>
             {{ $path }}
-        </x-slot>
+        </x-slot:path>
     </x-header>  
 
 

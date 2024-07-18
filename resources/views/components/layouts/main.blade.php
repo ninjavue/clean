@@ -38,30 +38,30 @@
             <div class="col-lg-9">
                 <div class="row bg-dark d-none d-lg-flex">
                     <div class="col-lg-7 text-left text-white">
-                        <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
+                        <a href="mailto:info@example.com" class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
                             <i class="fa fa-envelope text-primary mr-2"></i>
                             <small>info@example.com</small>
-                        </div>
-                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
+                        </a>
+                        <a href="tel:+0123456789" class="h-100 d-inline-flex align-items-center py-2 px-2">
                             <i class="fa fa-phone-alt text-primary mr-2"></i>
                             <small>+012 345 6789</small>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-5 text-right">
                         <div class="d-inline-flex align-items-center pr-2">
-                            <a class="text-primary p-2" href="">
+                            <a class="text-primary p-2" target="_blank" href="https://www.facebook.com">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="text-primary p-2" href="">
+                            <a class="text-primary p-2" target="_blank" href="https://x.com">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="text-primary p-2" href="">
+                            <a class="text-primary p-2" target="_blank" href="https://linkedin.com">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a class="text-primary p-2" href="">
+                            <a class="text-primary p-2" target="_blank" href="https://instagram.com">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="text-primary p-2" href="">
+                            <a class="text-primary p-2" target="_blank" href="https://youtube.com">
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
@@ -80,13 +80,7 @@
                             <a href="/about" class="nav-item nav-link">About</a>
                             <a href="/service" class="nav-item nav-link">Service</a>
                             <a href="/project" class="nav-item nav-link">Project</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="/blog" class="dropdown-item">Latest Blog</a>
-                                    <a href="/single" class="dropdown-item">Blog Detail</a>
-                                </div>
-                            </div>
+                            <a href="/blog" class="nav-item nav-link">Blog</a>
                             <a href="/contact" class="nav-item nav-link">Contact</a>
                         </div>
                         <a href="/contact" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>
@@ -118,10 +112,10 @@
                 <p><i class="fa fa-phone-alt text-primary mr-2"></i>+012 345 67890</p>
                 <p><i class="fa fa-envelope text-primary mr-2"></i>info@example.com</p>
                 <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-light btn-social mr-2" target="_blank" href="https://x.com"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" target="_blank" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" target="_blank" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">

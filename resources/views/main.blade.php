@@ -1,7 +1,7 @@
 <x-layouts.main>
    <x-slot:title>
         Bosh Sahifa
-    </x-slot>
+   </x-slot:title>
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -17,7 +17,7 @@
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
                             <h1 class="display-3 text-white mb-md-4">Best Quality Solution In Cleaning</h1>
-                            <a href="" class="btn btn-primary">Get A Quote</a>
+                            <a href="/contact" class="btn btn-primary">Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
                             <h1 class="display-3 text-white mb-md-4">Highly Professional Cleaning Services</h1>
-                            <a href="" class="btn btn-primary">Get A Quote</a>
+                            <a href="/contact" class="btn btn-primary">Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
                             <h1 class="display-3 text-white mb-md-4">Experienced & Expert Cleaners</h1>
-                            <a href="" class="btn btn-primary">Get A Quote</a>
+                            <a href="/contact" class="btn btn-primary">Get A Quote</a>
                         </div>
                     </div>
                 </div>
@@ -98,10 +98,11 @@
                     <h1 class="mb-4 section-title">We Provide The Best Cleaning Services</h1>
                     <h5 class="text-muted font-weight-normal mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea lorem justo est dolor eos</h5>
                     <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    
                     <div class="d-flex align-items-center pt-4">
-                        <a href="" class="btn btn-primary mr-5">Learn More</a>
+                        <a href="/project" class="btn btn-primary mr-5">Learn More</a>
                         <button type="button" class="btn-play" data-toggle="modal"
-                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            data-src="https://www.youtube.com/embed/Ad7mZ16ACB0?si=R0laLdbJ6n3l1K-V" data-target="#videoModal">
                             <span></span>
                         </button>
                         <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
@@ -123,7 +124,7 @@
                     </button>        
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ad7mZ16ACB0?si=R0laLdbJ6n3l1K-V" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -140,7 +141,7 @@
                     <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Our Services</h6>
                     <h1 class="mb-4 section-title text-white">Awesome Cleaning Services For You</h1>
                     <p class="text-white">Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-                    <a href="" class="btn btn-primary mt-3 py-2 px-4">More Services</a>
+                    <a href="/service" class="btn btn-primary mt-3 py-2 px-4">More Services</a>
                 </div>
                 <div class="col-lg-6 pt-5 pt-lg-0">
                     <div class="owl-carousel service-carousel position-relative">
